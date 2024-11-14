@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landing Page</title>
+        <title>Hipertensão na Juventude</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
-        <header>
-            <div>
-                <h1>Hipertensão na Juventude</h1>
-            </div>
 
-            <ul>
-                <a href="#"><li>Menu1</li></a>
-                <a href="#"><li>Menu2</li></a>
-                <a href="#"><li>Menu3</li></a>
-                <a href="#"><li>Menu4</li></a>
-            </ul>
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#Sobre">Sobre a Hipertensão</a></li>
+                    <li><a href="#Causas">Causas</a></li>
+                    <li><a href="#Prevencao">Prevenção</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <main>
-            <aside>
-                <h2>Subtitulo1</h2>
-                <h2>Subtitulo2</h2>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
-                <form>
-                    <input type="text" id="nome" name="nome">
-                    <input type="email" id="email" name="email">
-                    <input type="submit" value="Enviar">
-                </form>
-            </aside>
+        <section id="info">
+            <div class="info-texto">
+                <h1>Hipertensão na Juventude</h1>
+                <p>Entenda os riscos e saiba como prevenir.</p>
+                <a href="https://drauziovarella.uol.com.br/doencas-cronicas/hipertensao/hipertensao-em-jovens/" target="_blank" class="botao">Saiba mais</a>
+            </div>
 
-            <article>
-                <img src="img/esfigmo.jpg" alt="Medidor de pressão/Esfigmomanômetro">
-            </article>
-        </main>
+            <div class="info-imagem">
+                <img src="img/esfigmo.jpg" alt="Medidor de pressão/Esfigmomanômetro">    
+            </div>    
+        </section>
         
+        <section id="Sobre">
+            <h2>O que é a Hipertensão?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptas sit adipisci veritatis aut
+                consectetur, blanditiis accusamus officia. Non facilis delectus consequuntur quaerat aliquid quibusdam
+                voluptatum id dignissimos eos assumenda.</p>
+        </section>
+
+        <section id="Causas">
+            <h2>Causa da Hipertensão nos jovens</h2>
+            <ul>
+                <li>Má alimentação</li>
+                <li>Histórico familiar</li>
+                <li>Estresse</li>
+                <li>Falta de atividade física</li>
+            </ul>
+        </section>
+
+        <section id="Prevencao">
+            <h2>Como prevenir</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste beatae adipisci corporis illo at? Eligendi
+                aperiam minima architecto aspernatur qui autem obcaecati doloribus. Adipisci velit explicabo recusandae
+                ducimus, perspiciatis nemo!</p>
+        </section>
+
+        <footer id="Contato">
+            <h2>Entre em contato</h2>
+            <p>Para mais informações, entre em contato conosco.</p>
+            <form action="#">
+                <input type="email" placeholder="Seu email">
+                <button type="submit">Enviar</button>
+            </form>
+        </footer>
+
     </body>
+
 </html>
